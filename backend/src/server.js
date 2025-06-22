@@ -3,8 +3,8 @@ import dotenv from "dotenv"
 import cookieParser from "cookie-parser";
 import cors from "cors"
 import path from "path"
-import dbConnect from "lib/dbconnect";
-import { app, server } from "lib/socket";
+import dbConnect from "../src/lib/dbconnect";
+import { app, server } from "../src/lib/socket";
 import authRoutes from "./routes/auth.route.js";
 import messageRoute from "./routes/message.route.js";
 
