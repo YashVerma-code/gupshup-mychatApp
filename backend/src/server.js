@@ -32,7 +32,6 @@ if(process.env.NODE_END==="production"){
         res.sendFile(path.join(__dirname,"../frontend","dist","index.html"));
     })
 }
-app.use()
 server.listen(port,()=>{
     console.log(`Server is listening at port ${port}`);
     dbConnect();
