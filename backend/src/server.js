@@ -3,9 +3,9 @@ import dotenv from "dotenv"
 import cookieParser from "cookie-parser";
 import cors from "cors"
 import path from "path"
-import dbConnect from "./lib/dbconnect.js";
-import { app, server } from "./lib/socket.js";
-import authRoutes from "./routes/auth.route.js"
+import dbConnect from "lib/dbconnect";
+import { app, server } from "lib/socket";
+import authRoutes from "./routes/auth.route.js";
 import messageRoute from "./routes/message.route.js";
 
 dotenv.config()
@@ -32,7 +32,6 @@ if(process.env.NODE_END==="production"){
         res.sendFile(path.join(__dirname,"../frontend","dist","index.html"));
     })
 }
-app.use()
 server.listen(port,()=>{
     console.log(`Server is listening at port ${port}`);
     dbConnect();
