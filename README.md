@@ -1,8 +1,8 @@
-# 💬 Gupshup - Real-time Chat Application
+# Gupshup - Real-time Chat Application
 
 **Gupshup** is a full-stack real-time messaging application designed to facilitate seamless communication between users. Built using the MERN stack, it supports one-on-one messaging, group chats, and real-time notifications.
 
-## 🚀 Features
+## Features
 
   * **Authentication & Authorization:** Secure login and signup functionality using JWT (JSON Web Tokens).
   * **Real-time Messaging:** Instant messaging using **Socket.io**.
@@ -13,7 +13,7 @@
   * **Profile Management:** View user profiles and manage chat settings.
   * **Responsive Design:** Fully optimized for desktop and mobile devices.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Frontend:**
 
@@ -35,7 +35,7 @@
 
   * Socket.io
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 gupshup-mychatApp/
@@ -115,7 +115,7 @@ npm start
 | **POST** | `/api/message` | Send a message |
 | **GET** | `/api/message/:chatId` | Fetch all messages for a chat |
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome\!
 
@@ -125,6 +125,6 @@ Contributions are welcome\!
 4.  Push to the branch (`git push origin feature/your-feature`).
 5.  Open a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
